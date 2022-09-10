@@ -1,0 +1,38 @@
+[{
+    "id": 1,
+    "name": "Karina",
+    "gender": "Graham",
+    "contact": "kgraham0@wikimedia.org",
+    "address": "Female",
+    "photo_url": "254.40.224.49"
+  }, {
+    "id": 2,
+    "name": "Jozef",
+    "gender": "Attenbrow",
+    "contact": "jattenbrow1@addthis.com",
+    "address": "Male",
+    "photo_url": "103.213.144.90"
+  }, {
+    "id": 3,
+    "name": "Kiel",
+    "gender": "Olifaunt",
+    "contact": "kolifaunt2@forbes.com",
+    "address": "Male",
+    "photo_url": "33.172.68.235"
+  }, {
+    "id": 4,
+    "name": "Frieda",
+    "gender": "Priden",
+    "contact": "fpriden3@gov.uk",
+    "address": "Female",
+    "photo_url": "238.148.121.223"
+  }, {
+    "id": 5,
+    "name": "Dean",
+    "gender": "Fearfull",
+    "contact": "dfearfull4@yale.edu",
+    "address": "Male",
+    "photo_url": "72.92.31.47"
+  }]
+
+  
