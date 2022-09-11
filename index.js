@@ -41,6 +41,7 @@ app.get('/user/all', (req, res) => {
     })
 })
 
+//POST API
 //save a random user api
 app.post('/user/save', (req, res) =>{
     // console.log('req', req)
@@ -67,54 +68,31 @@ app.post('/user/save', (req, res) =>{
     }
 })
 
-// //save a random user api
-// app.post('/user/save', (req, res) =>{
-//     // console.log('req', req)
-//     const user = req.body; 
-//     const {id, name, gender, contact, address, photo_url} = user
 
-//     if(id, name, gender, contact, address, photo_url ){
-//         fs.appendFile('./users.json', JSON.stringify(user), (err) => {
-//             if(err){
-//                 res.send('User failed to save')
-//             }
-//             else{
-//                 res.send('User added successfully')
-//             }
-//         })
-//     }
-//     else{
-//         console.log('some property is missing. Please check the data you are giving.')
-//     }
-//     console.log('user', user)
-// })
+//DELETE API
+app.delete('/user/delete/:id', (req, res) => {
+    const id = req.params.id; 
+    console.log('id', id)
+    
+    const previousUserData = JSON.parse(fs.readFileSync('./users.json'))
+
+   const newUserData = previousUserData.filter(user => {
+    return user.id !== parseInt(id); 
+   }) 
 
 
-//delete api
-// app.get('/user/delete/:id', (req, res) =>{
-//     const id = req.params.id; 
-//     const userData = fs.readFileSync('./users.json')
-//     const userDataObject = JSON.parse(userData)
-//     // console.log(typeof(userDataArray))
+   fs.writeFile('./users.json', JSON.stringify(newUserData, null, 4),(err) =>{
+    if(err){
+        res.send('user failed to delete')
+    }
+    else{
+        res.send('user deleted successfully')
+    }
+})
 
   
 
-//     for(const userId in userDataObject){
-      
-//         if(id === userId){
-//            fs.unlink('./users.json', userDataObject[userId], (err) => {
-//            if(err){
-//             res.send('User failed to delete')
-//            }
-//            else{
-//             res.send('user deleted successfully')
-//            }
-//            })
-
-//         }
-//     }
-// })
-
+})
 
 app.listen(PORT, () => {
     console.log(`Assingment 1 is listening on port ${PORT}`)

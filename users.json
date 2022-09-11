@@ -16,14 +16,6 @@
         "photo_url": "103.213.144.90"
     },
     {
-        "id": 3,
-        "name": "Kiel",
-        "gender": "Olifaunt",
-        "contact": "kolifaunt2@forbes.com",
-        "address": "Male",
-        "photo_url": "33.172.68.235"
-    },
-    {
         "id": 4,
         "name": "Frieda",
         "gender": "Priden",
@@ -47,5 +39,4 @@
         "address": "Male",
         "photo_url": "72.92.31.47"
     }
-    
 ]
