@@ -1,42 +1,35 @@
 [
     {
         "id": 1,
-        "name": "Karina",
-        "gender": "Graham",
-        "contact": "kgraham0@wikimedia.org",
-        "address": "Female",
-        "photo_url": "254.40.224.49"
+        "name": "Disha Patani",
+        "gender": "Female",
+        "contact": "dishapatani@gmail.com",
+        "address": "Mumbai",
+        "photo_url": "https://1.bp.blogspot.com/-d3dBHW_bE58/YZIGU0WexuI/AAAAAAAAFcA/RJQjb6Qbbvsr5X34oDNycOvDBLP_cDTrQCLcBGAsYHQ/s0/disha-patani-cleavage-lehanga-32.jpg"
     },
     {
         "id": 2,
-        "name": "Jozef",
-        "gender": "Attenbrow",
-        "contact": "jattenbrow1@addthis.com",
-        "address": "Male",
-        "photo_url": "103.213.144.90"
+        "name": "Anushka Sharma",
+        "gender": "Female",
+        "contact": "anushkasharma@gmail.com",
+        "address": "Mumbai",
+        "photo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e6/Anushka_Sharma_promoting_Zero.jpg/220px-Anushka_Sharma_promoting_Zero.jpg"
     },
     {
         "id": 4,
-        "name": "Frieda",
-        "gender": "Priden",
-        "contact": "fpriden3@gov.uk",
-        "address": "Female",
-        "photo_url": "238.148.121.223"
+        "name": "katrina kaif",
+        "gender": "female",
+        "contact": "katrinakaif@gmail.com",
+        "address": "Delhi",
+        "photo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8b/Katrina_Kaif_promoting_Bharat_in_2019.jpg/220px-Katrina_Kaif_promoting_Bharat_in_2019.jpg"
     },
+   
     {
         "id": 5,
-        "name": "Dean",
-        "gender": "Fearfull",
-        "contact": "dfearfull4@yale.edu",
-        "address": "Male",
-        "photo_url": "72.92.31.47"
-    },
-    {
-        "id": 6,
-        "name": "Dean",
-        "gender": "Fearfull",
-        "contact": "dfearfull4@yale.edu",
-        "address": "Male",
-        "photo_url": "72.92.31.47"
+        "name": "Deepika padukone",
+        "gender": "Female",
+        "contact": "deepikapadukone@gmail.com",
+        "address": "Mumbai",
+        "photo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b6/Deepika_Padukone_Cannes_2018_%28cropped%29.jpg/220px-Deepika_Padukone_Cannes_2018_%28cropped%29.jpg"
     }
 ]
