@@ -68,11 +68,18 @@ app.post('/user/save', (req, res) =>{
     }
 })
 
+//Update api 
+
+
+
+//Bulk-update api
+
+
 
 //DELETE API
 app.delete('/user/delete/:id', (req, res) => {
     const id = req.params.id; 
-    console.log('id', id)
+   
     
     const previousUserData = JSON.parse(fs.readFileSync('./users.json'))
 
